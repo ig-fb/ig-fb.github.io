@@ -8,8 +8,3 @@ function viewStorage() {
     `The password: ${storage[0].pwd}, ` +
     `The Number: ${storage[1]}.`
 }
-function error() {
-    const errorEffect = new Audio('audio/error_login.mp3')
-    errorEffect.volume = 0.5
-    errorEffect.play()
-}
